@@ -118,8 +118,8 @@ namespace Shop.API.Persistence.Contexts
             };
 
             builder.Entity<Role>().HasData(sa, admin, user);
-            builder.Entity<UserRole>().HasData(ur1, ur2, ur3);
-            builder.Entity<User>().HasData(u1, u2);
+            builder.Entity<UserRole>().HasData(ur1, ur2, ur3, ur4, ur5, ur6, ur7, ur8, ur9);
+            builder.Entity<User>().HasData(u1, u2, u3,u4, u5, u6);
 
             builder.Entity<Category>().ToTable("Categories");
             builder.Entity<Category>().HasKey(p => p.Id);
