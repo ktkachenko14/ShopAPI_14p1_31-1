@@ -135,7 +135,7 @@ namespace Shop.API.Persistence.Contexts
                     Id = 12000,
                     Name = "Tea",
                     GoodCount = 10
-    
+                    CategoryId = 1000
                 }
 
             );
